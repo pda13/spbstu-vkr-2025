@@ -1,0 +1,118 @@
+\documentclass[4paper,12pt]{article}
+
+% Languages
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+
+% Formatting
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{multirow}
+
+\titleformat{\subsection}{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+\titlespacing*{\subsection}{10pt}{0.5em}{0.5em}
+\titleformat{\subsubsection}[runin]{\normalfont\normalsize\bfseries}{\thesubsubsection}{1em}{}
+\titlespacing*{\subsubsection}{20pt}{0.5em}{0.5em}
+
+% Layout
+\usepackage[margin=1.4cm]{geometry}
+\usepackage{indentfirst}
+\setlength{\parskip}{0.3cm}
+
+% Math
+\usepackage{amsmath}
+
+% Images
+\usepackage{graphicx}
+\graphicspath{{./Images}}
+\usepackage[font=tiny,labelfont=bf]{caption}
+
+% Links
+\usepackage{hyperref}
+
+% Code
+\usepackage{listings}
+\usepackage{xcolor}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\begin{document}
+	\begin{titlepage}
+		\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+		\center
+		\textsc{\large Санкт-Петербургский Политехнический университет Петра Великого}\\[0.2cm]
+		\textsc{\large Институт компьютерных наук и кибербезопасности}\\[0.2cm]
+		\textsc{\large \textbf{Высшая школа программной инженерии}}\\[0.2cm]
+		\vfill\vfill
+		\HRule\\[0.4cm]
+		{\large\textbf{ОТЧЕТ ПО НАУЧНОЙ ИССЛЕДОВАТЕЛЬСКОЙ РАБОТЕ} \\ по теме «Применение методов искусственного интеллекта для цифровой обработки сигналов»}\\[0.4cm]
+		\HRule\\[1.5cm]
+		{\large \textbf{\underline{Направление подготовки: }} 5130904/10101 «Программная инженерия» \\}
+		{\large \textbf{\underline{Профиль: }} «Технология разработки и сопровождения качественного \\ программного продукта» }
+		\vfill\vfill
+		
+		\par
+		\noindent
+		\begin{minipage}[t]{0.47\textwidth}
+			{\large{ Выполнил\\
+					студент гр. \underline{5130904/10101} \\}}
+		\end{minipage}
+		\hfill
+		\begin{minipage}[t]{0.47\textwidth}\raggedleft
+			{\large{ Д.А. Пьянков \\}}
+		\end{minipage}
+		\begin{minipage}[t]{0.47\textwidth}
+			{\large{Преподаватель}}
+		\end{minipage}
+		\hfill
+		\begin{minipage}[t]{0.47\textwidth}\raggedleft
+			{\large{А.В. Петров\\}}
+		\end{minipage}
+		\hfill
+		
+		\begin{minipage}[t]{\textwidth}\raggedleft
+			{\large{«\rule{0.6cm}{0.15mm}»  \rule{2.8cm}{0.15mm} 202\rule{0.4cm}{0.15mm}г.\\}}
+		\end{minipage}
+		
+		
+		\vfill\vfill\vfill
+		\textsc{\large Санкт-Петербург}\\[0.5cm]
+		{\large2024}
+		\vfill
+		
+	\end{titlepage}
+	
+	\tableofcontents
+	\newpage
+	
+	\section{Введение}
+
+	\section{Глава 1. Обзор предметной области}
+	
+\end{document}
